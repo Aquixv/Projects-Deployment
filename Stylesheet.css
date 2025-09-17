@@ -200,37 +200,7 @@ display:none;
 }
 }
 @media(max-width: 480px) {
-  body{
-    background-color: blanchedalmond;
-    background: linear-gradient(to right,#FFF3B0,#E09F3E);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 98vh;
-    }
-  .sidebar{
-  display:none;
-  }
-  .container {
-    background-color: #ffe5ec;
-    border-radius: 150px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
-    position: relative;
-    overflow: hidden;
-    width: 480px;
-    max-width: 100%;
-    min-height: 480px;
-  }
-.container p {
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.3px;
-    margin: 20px 0;
-  }
-  
-  
-  .container span {
-    font-size: 12px;
-  }
+  h1{
+  display: none;
+}
   }
